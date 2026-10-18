@@ -1,0 +1,50 @@
+{
+    "name":  "card-craft",
+    "logo":  "🃏",
+    "exe":  "CardCraft.exe",
+    "desc":  "Free, open-source flashcard maker for Windows — turn notes and PDFs into Anki-ready cards with a local LLM. 100 MB portable, MIT.",
+    "topics":  [
+                   "flashcards",
+                   "anki",
+                   "spaced-repetition",
+                   "local-ai",
+                   "llm",
+                   "study-tools",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "q-and-a-generation",
+                   "cloze",
+                   "apkg",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Notes to cards** — paste lecture text or a chapter PDF and get question-answer pairs back from a local model",
+                     "✅ **Cloze deletions** — sentences with hidden keywords turned into proper cloze cards",
+                     "✅ **Approve flow** — every draft card reviewed, edited or rejected fast in a keyboard-only pass",
+                     "✅ **Anki export** — deck-importable CSV and APKG-style packaging with tags and source fields intact",
+                     "✅ **Source anchoring** — each card keeps the page and paragraph it came from for verification",
+                     "✅ **Batch chapters** — a whole textbook folder processed into tagged decks per chapter",
+                     "✅ **100 MB self-contained exe** — runtime bundled, model runs locally via llama.cpp, offline, MIT"
+                 ],
+    "compare":  [
+                    "| Feature | **card-craft** | Anki add-ons | ChatGPT web | Quizlet |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free, mixed | Free tier | Paid tiers |",
+                    "| Open source | **Yes** | Yes | No | No",
+                    "| Source material stays local | **Yes** | Yes | Upload | Upload",
+                    "| Cloze plus Q\u0026A in one pass | **Yes** | Partial | Manual | Manual",
+                    "| Chapter batch to tagged decks | **Yes** | No | No | No",
+                    "| Portable, no install | **Yes, 100 MB** | Inside Anki | Browser | Browser"
+                ],
+    "faqQ":  "how to make Anki flashcards automatically from my notes offline?",
+    "faqA":  "Generating cards in a chatbot means pasting chapters into a cloud service and fixing formatting by hand. card-craft drafts Q\u0026A and cloze cards locally with source anchors and exports decks ready for review. It is a 100 MB portable exe, MIT, and your study material stays on disk.",
+    "s1":  "Dark study desk (#121417, teal #0D9488): source PDF left with paragraph selected, three draft cards right with edit fields, approve and reject controls highlighted.",
+    "s2":  "Keyboard review pass: card focused in the center, shortcuts strip reading a approve r reject e edit, counter chip showing 34 of 120 cards done.",
+    "s3":  "Export step: deck name field reading cardiology-ch4, tag mapping table, APKG checkbox on, CSV preview with columns front and back."
+}
